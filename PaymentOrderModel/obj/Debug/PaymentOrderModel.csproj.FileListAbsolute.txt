@@ -1,0 +1,12 @@
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\bin\Debug\PaymentOrderModel.dll.config
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\bin\Debug\PaymentOrderModel.dll
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\bin\Debug\PaymentOrderModel.pdb
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\bin\Debug\EntityFramework.dll
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\bin\Debug\EntityFramework.xml
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\obj\Debug\PaymentOrderModel.csproj.AssemblyReference.cache
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\obj\Debug\PaymentOrderModel.csproj.CoreCompileInputs.cache
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\obj\Debug\PaymentOrderModel.csproj.CopyComplete
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\obj\Debug\PaymentOrderModel.dll
+C:\Users\benjamin.kelong\source\repos\PaymentOrderModel\obj\Debug\PaymentOrderModel.pdb

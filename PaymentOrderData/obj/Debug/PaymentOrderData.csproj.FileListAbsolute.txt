@@ -1,0 +1,17 @@
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\bin\Debug\PaymentOrderData.dll.config
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\bin\Debug\PaymentOrderData.dll
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\bin\Debug\PaymentOrderData.pdb
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\bin\Debug\EntityFramework.dll
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\bin\Debug\PaymentOrderModel.dll
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\bin\Debug\PaymentOrderModel.pdb
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\bin\Debug\PaymentOrderModel.dll.config
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\bin\Debug\EntityFramework.xml
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\obj\Debug\PaymentOrderData.csproj.AssemblyReference.cache
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\obj\Debug\PaymentOrderData.Migrations.initial.resources
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\obj\Debug\PaymentOrderData.csproj.GenerateResource.cache
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\obj\Debug\PaymentOrderData.csproj.CoreCompileInputs.cache
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\obj\Debug\PaymentOrderData.csproj.CopyComplete
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\obj\Debug\PaymentOrderData.dll
+C:\Users\benjamin.kelong\source\repos\PaymentOrderData\obj\Debug\PaymentOrderData.pdb

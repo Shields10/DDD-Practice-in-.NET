@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<a href="/Payment/Create" class="btn btn-success" style="margin-bottom:10px">
+    <i class="fa fa-plus" aria-hidden="true"></i> Add New
+</a>
+<table class="table" id="table">
+    <thead>
+        <tr>
+            <th>
+                Route Id
+            </th>
+            <th>
+                Remitter Name
+            </th>
+            <th>
+                Recepient Name
+            </th>
+
+            <th>
+                Primary Account Number
+            </th>
+            <th>
+                Currency
+            </th>
+            <th>
+                Amount
+            </th>
+            <th>
+                System Trace Audit Number
+            </th>
+            <th>
+                Reference
+            </th>
+            @*            <th>Action</th>*@
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>
+                Route Id
+            </th>
+            <th>
+                Remitter Name
+            </th>
+            <th>
+                Recepient Name
+            </th>
+
+            <th>
+                Primary Account Number
+            </th>
+            <th>
+                Currency
+            </th>
+            <th>
+                Amount
+            </th>
+            <th>
+                System Trace Audit Number
+            </th>
+            <th>
+                Reference
+            </th>
+            @*<th>Action</th>*@
+        </tr>
+    </tfoot>
+
+
+</table>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.css" />
+
+@section scripts {
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#table").DataTable({
+                "ajax": {
+
+                    "url": "/Payment/GetPaymentList",
+                    "type": "POST",
+                    "datatype": "json"
+                },
+                "columns": [
+                    { "data": "RouteId", "name": "RouteId" },
+                    { "data": "RemitterName", "name": "RemitterName" },
+                    { "data": "RecepientName", "name": "RecepientName" },
+                    { "data": "PrimaryAccountNumber", "name": "PrimaryAccountNumber" },
+                    { "data": "Ccy", "name": "Ccy" },
+                    { "data": "Amount", "name": "Amount" },
+                    { "data": "SystemTraceAuditNumber", "name": "SystemTraceAuditNumber" },
+                    { "data": "Reference", "name": "Reference" },
+
+                ],
+
+                "serverSide": "true",
+                "order": [0, "asc"],
+                "processing": "true"
+
+            });
+
+        });
+
+
+    </script>
+}

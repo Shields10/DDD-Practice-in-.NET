@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="016c060b-f8be-4357-a568-735fa56ffe71" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:62839/PaymentOrderService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PaymentOrderService.xsd" MetadataType="Schema" ID="c5385ffd-bda5-442c-a9fc-49474ab2756b" SourceId="1" SourceUrl="http://localhost:62839/PaymentOrderService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PaymentOrderService.wsdl" MetadataType="Wsdl" ID="5cd8e67a-425c-452a-82be-66e8ba37db7c" SourceId="1" SourceUrl="http://localhost:62839/PaymentOrderService.svc?wsdl" />
+    <MetadataFile FileName="PaymentOrderService1.xsd" MetadataType="Schema" ID="d0443eb7-fa94-4efe-a9d0-d70d530e49a9" SourceId="1" SourceUrl="http://localhost:62839/PaymentOrderService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PaymentOrderService.disco" MetadataType="Disco" ID="66f6c48e-c452-447a-91ff-12221a245c42" SourceId="1" SourceUrl="http://localhost:62839/PaymentOrderService.svc?disco" />
+    <MetadataFile FileName="PaymentOrderService2.xsd" MetadataType="Schema" ID="1b70b967-7b58-456f-9da3-00c07c042329" SourceId="1" SourceUrl="http://localhost:62839/PaymentOrderService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

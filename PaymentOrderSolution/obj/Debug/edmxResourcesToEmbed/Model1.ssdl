@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PaymentDetailsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PaymentOrders">
+    <Key>
+      <PropertyRef Name="OriginatorConversationId" />
+    </Key>
+    <Property Name="OriginatorConversationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RemitterName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="RemitterAddress" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="RemitterPhoneNumber" Type="int" Nullable="false" />
+    <Property Name="RemitterIdType" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="RemitterIdNumber" Type="int" Nullable="false" />
+    <Property Name="Country" Type="nvarchar(max)" />
+    <Property Name="Ccy" Type="nvarchar(max)" />
+    <Property Name="FinancialInstituion" Type="nvarchar(max)" />
+    <Property Name="SourceOfFunds" Type="nvarchar(max)" />
+    <Property Name="PrincipalActivity" Type="nvarchar(max)" />
+    <Property Name="RecepientName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="RecepientPhoneNumber" Type="int" Nullable="false" />
+    <Property Name="PrimaryAccountNumber" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="float" Nullable="false" />
+    <Property Name="RouteId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SystemTraceAuditNumber" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Reference" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="PaymentDetailsModelStoreContainer">
+    <EntitySet Name="PaymentOrders" EntityType="Self.PaymentOrders" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/PaymentOrderModel" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PaymentOrderModel" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:62839/PaymentOrderService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfPaymentOrderDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PaymentOrderDTO" nillable="true" type="tns:PaymentOrderDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPaymentOrderDTO" nillable="true" type="tns:ArrayOfPaymentOrderDTO" />
+  <xs:complexType name="PaymentOrderDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:double" />
+      <xs:element minOccurs="0" name="Ccy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FinancialInstituion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="OriginatorConversationId" type="ser:guid" />
+      <xs:element minOccurs="0" name="PrimaryAccountNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrincipalActivity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RecepientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RecepientPhoneNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="Reference" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RemitterAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RemitterIdNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="RemitterIdType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RemitterName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RemitterPhoneNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="RouteId" type="ser:guid" />
+      <xs:element minOccurs="0" name="SourceOfFunds" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SystemTraceAuditNumber" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PaymentOrderDTO" nillable="true" type="tns:PaymentOrderDTO" />
+</xs:schema>

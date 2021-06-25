@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PaymentDetailsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PaymentOrder">
+    <Key>
+      <PropertyRef Name="OriginatorConversationId" />
+    </Key>
+    <Property Name="OriginatorConversationId" Type="Guid" Nullable="false" />
+    <Property Name="RemitterName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RemitterAddress" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RemitterPhoneNumber" Type="Int32" Nullable="false" />
+    <Property Name="RemitterIdType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RemitterIdNumber" Type="Int32" Nullable="false" />
+    <Property Name="Country" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Ccy" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FinancialInstituion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SourceOfFunds" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PrincipalActivity" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RecepientName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RecepientPhoneNumber" Type="Int32" Nullable="false" />
+    <Property Name="PrimaryAccountNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <Property Name="RouteId" Type="Guid" Nullable="false" />
+    <Property Name="SystemTraceAuditNumber" Type="Guid" Nullable="false" />
+    <Property Name="Reference" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="PaymentDetailsEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PaymentOrders" EntityType="Self.PaymentOrder" />
+  </EntityContainer>
+</Schema>

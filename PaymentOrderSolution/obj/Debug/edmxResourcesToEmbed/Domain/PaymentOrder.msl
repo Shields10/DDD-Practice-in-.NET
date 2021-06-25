@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PaymentDetailsModelStoreContainer" CdmEntityContainer="PaymentDetailsEntities1">
+    <EntitySetMapping Name="PaymentOrders">
+      <EntityTypeMapping TypeName="PaymentDetailsModel.PaymentOrder">
+        <MappingFragment StoreEntitySet="PaymentOrders">
+          <ScalarProperty Name="OriginatorConversationId" ColumnName="OriginatorConversationId" />
+          <ScalarProperty Name="RemitterName" ColumnName="RemitterName" />
+          <ScalarProperty Name="RemitterAddress" ColumnName="RemitterAddress" />
+          <ScalarProperty Name="RemitterPhoneNumber" ColumnName="RemitterPhoneNumber" />
+          <ScalarProperty Name="RemitterIdType" ColumnName="RemitterIdType" />
+          <ScalarProperty Name="RemitterIdNumber" ColumnName="RemitterIdNumber" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Ccy" ColumnName="Ccy" />
+          <ScalarProperty Name="FinancialInstituion" ColumnName="FinancialInstituion" />
+          <ScalarProperty Name="SourceOfFunds" ColumnName="SourceOfFunds" />
+          <ScalarProperty Name="PrincipalActivity" ColumnName="PrincipalActivity" />
+          <ScalarProperty Name="RecepientName" ColumnName="RecepientName" />
+          <ScalarProperty Name="RecepientPhoneNumber" ColumnName="RecepientPhoneNumber" />
+          <ScalarProperty Name="PrimaryAccountNumber" ColumnName="PrimaryAccountNumber" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="RouteId" ColumnName="RouteId" />
+          <ScalarProperty Name="SystemTraceAuditNumber" ColumnName="SystemTraceAuditNumber" />
+          <ScalarProperty Name="Reference" ColumnName="Reference" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
